@@ -1,0 +1,14 @@
+[package]
+name = "cargo-start"
+version = "0.1.0"
+edition = "2021"
+authors = ["Michael Mullin"]
+
+[dependencies]
+clap = { version = "3.2.15", features = ["derive"] }
+git2 = "0.15.0"
+
+[[bin]]
+name = "cargo-start"
+path = "src/main.rs"
+
